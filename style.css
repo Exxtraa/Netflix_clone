@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+} 
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 10.8) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 8.8) 100%),url(images/header-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;   
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+   
+}
+
+nav button{
+    border: 0px;
+    outline: 0px;
+    background-color: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 49rem;
+    margin-left: 12px;
+    
+   
+}
+
+.lang{
+    border: 0px;
+    outline: 0px;
+    color: black;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 49rem;
+    margin-left: 12px;
+
+
+}
+
+.hero{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 14rem;
+}
+
+.info{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15.5rem;
+
+}
+
+.info1{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15.5rem;
+
+}
+
+.email-signup{
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 280px;
+    overflow: hidden;
+    width: 39rem;
+    position: relative;
+    left: 16rem;
+    border: 1px solid white;
+    
+}
+
+.email-signup input{
+    background-color: black;
+    color: white;
+    flex: 1;
+    border:0;
+    outline: 0;
+    padding: 0.8rem;
+    font-size:1.2rem;
+    margin-left: 20px;
+    opacity: 65%;
+    
+}
+
+.email-signup button{
+    background-color: red;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 1px solid black;
+}
+
+
+/* ------------------features------------------ */
+
+.features{
+    padding: 50px 12px;
+    font-size: 25px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.text-col h2{
+    font-size: 3.6rem;
+}
+
+.text-col p{
+font-size: 1.2rem;
+}
+
+
+.row2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.row3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.row4{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.faq{
+     display: flex;
+     justify-content: center;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    pad: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background-color: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label +.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+-------------------/* re-signup at the end */--------------------
+
+.email-signup_2{
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    overflow: hidden;
+    width: 39rem;
+    position: relative;
+    left: 16rem;
+    border: 4px solid white;
+    
+}
+
+.email-signup_2 input{
+    background-color: black;
+    color: white;
+    flex: 1;
+    border:0;
+    outline: 0;
+    padding: 0.8rem;
+    font-size:1.2rem;
+    margin-left: 25.5rem;
+    margin-top: 2.9rem;
+    border: 1px solid;
+    opacity: 65%;
+    
+}
+
+.email-signup_2 button{
+    background-color: red;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 30px;
+    border: 1px solid black;
+}
+
+/* -----------------footer-------------------------- */
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.help_1 li{
+    list-style: none;
+}
+
+.help_2 li{
+    list-style: none;
+    color: red;
+}
+
+.help_3 li{
+    list-style: none;
+    color: aqua;
+}
+
+.last{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
