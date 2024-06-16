@@ -1,0 +1,1 @@
+This is my netflix clone and purely made in HTML and CSS and in this i also intergrate locomotive js for smooth scrolling in webiste
